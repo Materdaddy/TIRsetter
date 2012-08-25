@@ -49,9 +49,9 @@ uint8_t DMXBuffer[DMX_MAX] = {
 // BYTES 53/54 seeded assuming 0x18 for byte 19, base values of 0x46 and 0xCA based on the post here:
 // http://doityourselfchristmas.com/forums/showthread.php?21586-Initializer-Program-for-TIR-Systems-Destiny-CG-Lights-Commercial-LED-Spots&p=220032#post220032
   //53
-  (0x46 + ((SERIAL_NUMBER - 3080000)+(NEW_DMX_ADDRESS-2))&0xFF),//???
+  (0x46 + ((SERIAL_NUMBER - 3080000)+(NEW_DMX_ADDRESS-1))&0xFF),//???
   //54 CRC 1 Byte Checksum
-  (0xCA + (((SERIAL_NUMBER - 3080000)+(NEW_DMX_ADDRESS-2))*2)&0xFF)//???
+  (0xCA + (((SERIAL_NUMBER - 3080000)+(NEW_DMX_ADDRESS-1))*2)&0xFF)//???
 };
 
 #if 0
