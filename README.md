@@ -20,3 +20,13 @@ http://arduino.cc/playground/Learning/DMXSerial
 
 The thread with all the information on this special DMX data is here:
 http://doityourselfchristmas.com/forums/showthread.php?21586-Initializer-Program-for-TIR-Systems-Destiny-CG-Lights-Commercial-LED-Spots&p=220032#post220032
+
+Usage
+=====
+Edit the ".ino" file in the arduino IDE and upload.  The values you'll need to chagne are on lines 6 and 7.
+
+Change the value on line 6 to your serial number (without the dash)
+Change the value on line 7 to the red channel DMX value you wish to be your starting address
+
+PM Materdaddy on DIYC or post in this thread if you test this and it works, or if there's a problem:
+http://doityourselfchristmas.com/forums/showthread.php?21586-Initializer-Program-for-TIR-Systems-Destiny-CG-Lights-Commercial-LED-Spots
