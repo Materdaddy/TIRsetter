@@ -10,6 +10,7 @@ I take no credit for the work here.  This is due to the work of the following (i
 - mschell
 - RavingLunatic
 - rfallatt
+- WayneJ
 
 I simply took what they found and wrote a simple DMX sender for arduino.
 
